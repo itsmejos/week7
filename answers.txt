@@ -1,0 +1,6 @@
+With smaller pulse widths, the pulse resonant waveform varied more than when the pulse widths were greater. There were also many more significant peaks
+in the FFT graph with the smaller pulse width.
+
+A variation of acquisition rate does not appear to change the results.
+
+With varying the average, we cannot distinguish any major changes in the graph.
