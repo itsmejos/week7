@@ -2,5 +2,12 @@ With smaller pulse widths, the pulse resonant waveform varied more than when the
 in the FFT graph with the smaller pulse width.
 
 A variation of acquisition rate does not appear to change the results.
+The minimum scan rate to get values for 2000Hz is 4000 samples/second.  The minimum buffer size to get
+values for 2000Hz is 12, but the data is not likely reliable with so few samples.
+Data starts to look more reasonable with a buffer size of 32, and data looks fairly good at
+a buffer size of 100.
 
 With varying the average, we cannot distinguish any major changes in the graph.
+
+When we run our data through the ResonanceAnalyzer.vi, we get amp = 0.02804;  Q = 16;  Max Frequency = 160
+
